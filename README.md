@@ -1,4 +1,5 @@
 # Chainbase-avs-operator
+
 ![image](https://github.com/user-attachments/assets/d971db5b-020d-4ee3-aaf6-1b95392d523d)
 Chainbase is the world’s largest omnichain data network designed to integrate all blockchain data into a unified ecosystem, providing an open and transparent data interoperability layer for the AI era.
 
@@ -6,6 +7,7 @@ Chainbase is the world’s largest omnichain data network designed to integrate 
 ## How to setup an AVS operator
 ## System Requirements
 Based on their [official docs](https://blog.chainbase.com/how-to-setup-an-avs-operator#h-hardware)
+
 ![image](https://github.com/user-attachments/assets/f9a0ed5e-acbe-4de3-afe7-5442c9f69f15)
 
 ## Install dependencies
@@ -101,6 +103,7 @@ edit `operator.yaml`
 nano operator.yaml
 ```
 Add your metadata.json raw url in github in front of `metadata-url`
+
 ![image](https://github.com/user-attachments/assets/fd845525-86e1-4a36-ba20-fbe1aff29ee5)
 
 ## Register operator
