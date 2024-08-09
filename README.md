@@ -96,7 +96,7 @@ edit metadata.json `nano metadata.json` and set your operator name, logo image p
 * Logo only supports `.png` file less than 1MB in size
 * Create a repositry in github and upload `.png` there
 * To get your logo raw link: **1)** Navigate to the file in your repository, **2)** Click on the file name to view its contents, **3)** In the address bar of your browser, **4)** replace `blob` with `raw` in the URL, **5)** Press Enter to load the raw content view, **6)** Copy the updated URL from the address bar and paste in front of `logo` field in `metadata.json`
-* My example `metadata.json` file in github: https://github.com/youngpriince/chainbase-metadata/main/metadata.json (Don't use this! Create yours)
+* My example `metadata.json` file in github: https://github.com/youngpriince/chainbase-metadata/blob/main/metadata.json (Don't use this! Create yours)
 
 edit `operator.yaml` 
 ```console
