@@ -104,6 +104,8 @@ nano operator.yaml
 ```
 Add your metadata.json raw url in github in front of `metadata-url`
 
+`private_key_store_path` should be /root/.eigenlayer/operator_keys/opr.ecdsa.key.json
+
 ![image](https://github.com/user-attachments/assets/fd845525-86e1-4a36-ba20-fbe1aff29ee5)
 
 ## Register operator
@@ -182,7 +184,7 @@ NODE_ECDSA_KEY_FILE_HOST=${EIGENLAYER_HOME}/operator_keys/opr.ecdsa.key.json
 
 # TODO: Operators need to add password to decrypt the above keys
 # If you have some special characters in password, make sure to use single quotes
-NODE_ECDSA_KEY_PASSWORD=***eigenlayer password***
+NODE_ECDSA_KEY_PASSWORD=***123ABCabc123***
 ```
 
 **Create `docker-compose.yml` file**
@@ -334,7 +336,7 @@ docker ps
 ## Fill the form
 https://forms.gle/w9h8Su87kEnDwRMA7
 
-## Post your Operator address in the Operator Support channel
+## Post your Operator holesky in the operator-broadcast channel
 https://discord.gg/chainbase
 
 ![Screenshot (110)](https://github.com/user-attachments/assets/7ae7a98c-c57a-4d4d-854d-59c4b47e4b74)
